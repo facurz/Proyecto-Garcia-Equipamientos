@@ -1,0 +1,661 @@
+/*=========== estilo general compratido ===========*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+h3 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+}
+p {
+    font-size: 1.4rem;
+    color: white;
+}
+body {
+    background-color: #583d1c;
+    width: 100%;
+}
+
+
+/*=========== estilo header compratido ===========*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+}
+.headerLogo {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(195, 106, 0);
+    align-items: center;
+    width: 90%;
+}
+.headerLogo__busqueda {
+    padding-left: 20px;
+    height: 40px;
+    width: 50%;
+    min-width: 320px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 25px;
+    font-size: 1.6rem;
+    font-style: italic;
+    color: white;
+}
+.headerLogo__busqueda::placeholder {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: white;
+}
+header input {
+    border: none;
+    outline: none;
+}
+.headerLogo__iconos {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+}
+.headerLogo__iconos span {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.navMenu {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    width: 90vw;
+}
+.navMenu a {
+   display: block; 
+   padding: 5px 0;
+   text-decoration: none;
+   font-size: 1.8rem;
+   color: white;
+   transition: font-size 0.3s;
+}
+.navMenu a:hover {
+    text-shadow: black 2px 1px;
+    font-size: 2rem;
+    color: rgb(214, 161, 96);
+}
+.banner {
+    margin: 5px auto;
+    width: 90%;
+    height: 200px;
+    background-image: url('../assets/slide.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: double ;
+    border-color: rgb(195, 106, 0);
+    animation: banner 9s infinite linear;
+}
+@keyframes banner {
+    0% {
+         background-image: url("../assets/slide.jpg");
+    }
+    33% {
+         background-image: url("../assets/slide.jpg");
+    }
+    34% {
+         background-image: url("../assets/slide1.jpg");
+    }
+    66% {
+         background-image: url("../assets/slide1.jpg");
+    }
+   67% {
+         background-image: url("../assets/slide2.jpg");
+    }
+   100% {
+         background-image: url("../assets/slide2.jpg");
+    }
+}
+
+/*=========== estilo mainIndex ===========*/
+
+.mainIndex {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 90%;
+    height: auto;     
+}
+.presentacion {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+.presentacion__text {
+    width: 60%;
+    padding-left: 20px;
+}
+.presentacion__text p {
+    padding: 10px 0 10px 10px;
+    line-height: 2rem;
+    text-align:left;
+}
+.presentacion__showroom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    padding-left: 20px;
+}
+.presentacion__showroom h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+    padding: 0 50px;
+}
+.presentacion__showroom--img1 {
+    background-image: url("../assets/showroom01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img1:hover {
+    transform: scale(1.5);
+}
+.presentacion__showroom--img2 {
+    background-image: url("../assets/showroom02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img2:hover {
+    transform: scale(1.5);
+}
+.presentacion__showroom--img3 {
+    background-image: url("../assets/showroom03.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img3:hover {
+    transform: scale(1.5);
+}
+.presentacion__showroom--img4 {
+    background-image: url("../assets/showroom04.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img4:hover {
+    transform: scale(1.5);
+}
+.tituloNovedades {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin: 10px 0 10px;
+    border: 1px ridge rgb(195, 106, 0);
+    border-radius: 25px;
+}
+.mainIndex .novedades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5px auto;
+}
+
+/*=========== estilos footer compartido ===========*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding-top: 10px;
+    width: 90%;
+    border-top: 1px solid rgb(195, 106, 0); 
+
+}
+.footer__contactanos {
+    text-align: left;
+    padding-left: 20px;
+}
+.footer__contactanos p {
+    display: inline-block;
+    line-height: 20px;
+}
+.footer__contactanos img{
+    display: inline-block;
+    margin: 4px 2px 0 0;
+    width: 15px;
+    height: 15px;
+}
+.footer__seguinos {
+    text-align: center;
+}
+.footer__seguinos img {
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+.whatsappFlotante {
+    position:fixed;
+    right: 20px;
+    bottom: 30px;
+    z-index: 100;
+    background-image: url("../assets/icons8-whatsapp-80.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+}
+
+/*=========== estilos mainProductos ===========*/
+
+.mainProductos {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 90%;
+}
+.mainProductos__menu {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 30%;
+    height: auto;
+}
+.categorias span {
+    display: inline-block;
+    background-image: url("../assets/expand_more_white_24dp.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 7px;
+    width: 23px;
+    height: 23px;
+}
+.mainProductos__menu li {
+    list-style-type: none;
+    padding-left: 10px;
+}
+.mainProductos__menu a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 20px;
+    color: white;
+}
+.categorias__submenu {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+.categorias__submenu a:hover {
+    font-weight: bold;
+    color: rgb(214, 161, 96);
+}
+.categorias li:hover .categorias__submenu {
+    display: block;
+}
+.mainProductos__imagenes {
+    margin: 10px auto;
+}
+.mainProductos__items {
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item3" 
+    "item4 item5 item6"; 
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+    height: auto;
+    margin: 25px 40px 20px 40px; 
+}
+.item1 {
+    grid-area: item1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item2 {
+    grid-area: item2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item3 {
+    grid-area: item3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item4 {
+    grid-area: item4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item5 {
+    grid-area: item5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item6 {    
+    grid-area: item6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.box {
+ background-color: white;
+ border: 5px ridge rgb(195, 106, 0);
+ border-radius: 25px;
+ overflow: auto;
+}
+.mainProductos__items h3 {
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 5px solid rgb(195, 106, 0);
+    line-height: 1.5rem;
+    color: rgb(41, 38, 38);
+}
+.mainProductos__items h2 {
+    padding-top: 3px;
+    color: rgb(195, 106, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+.items__buttons button {
+    height: 36px;
+    border: 2px solid rgb(195, 106, 0);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(41, 38, 38);
+    border-radius: 25px;
+    padding: 0 15px;
+    margin: 10px 12px;
+}
+.items__buttons button:hover {
+    cursor: pointer;
+    border: 2px outset rgb(195, 106, 0);
+    box-shadow: 1px 1px rgb(177, 171, 171);
+}
+.item1__img {
+    position: relative;
+    top: 10px;
+    background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item2__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item3__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item4__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item5__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item6__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+
+/*=========== estilos preguntas frecuentes ===========*/
+
+.mainPreguntasFrecuentes {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 90%;
+    height: auto; 
+} 
+.mainPreguntasFrecuentes__text {
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 70%;
+    height: auto;    
+}
+.mainPreguntasFrecuentes__text p {
+    padding: 10px 0 10px 10px;
+    line-height: 2rem;
+    text-align:left;
+}
+.mainPreguntasFrecuentes__text img {
+    padding: 5px;;
+}
+.envios {
+    margin: auto auto;
+}
+.envios__tabla {
+    width: 300px;
+    height: 300px;
+    border: 1px double rgb(195, 106, 0) ;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom, #583d1c, #965d17);
+}
+.envios__tabla th {
+    font-size: 1.6rem;
+}
+.envios__tabla td {
+    font-size: 1.4rem;
+    border: 1px solid rgb(195, 106, 0);   
+}
+
+/*=========== estilos Como comprar ===========*/
+
+.mainComoComprar {
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 90%;
+    height: auto; 
+}
+.mainComoComprar__text {
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 100%;
+    height: auto;  
+}
+.mainComoComprar ol {
+    padding: 0 0 20px 20px;
+}
+.mainComoComprar li {
+    padding: 10px 0 10px 5px;
+    line-height: 2rem;
+    text-align:left;
+    font-size: 1.4rem;
+    color: white;
+}
+.mainComoComprar .novedades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5px auto;
+}
+
+/*=========== estilos contacto ===========*/
+
+.mainContacto {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    width: 90%;
+    height: auto;
+}
+.mainContacto__info {
+    margin-top: 10px;
+    padding-left: 20px;
+    width: 60%;
+    height: auto; 
+}
+.mainContacto__info p {
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+    line-height: 2rem;
+    text-align:left;
+}
+.mainContacto__info img{
+    display: inline-block;
+    margin: 4px 2px 0 0;
+    width: 15px;
+    height: 15px;
+}
+.mainContacto__formulario {
+    margin: auto auto;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .headerLogo {
+    flex-wrap: wrap;
+    }
+    .headerLogo__busqueda {
+        margin-bottom: 10px;
+    }
+    .banner {
+        height: 130px;
+        background-image: url('../assets/slide.jpg');
+        background-size: contain;
+    }
+    .navMenu a {
+        font-size: 1.6rem;
+     }
+     .navMenu a:hover {
+         font-size: 1.8rem;
+     }
+     .presentacion__showroom h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    
+}
+
+
+
+

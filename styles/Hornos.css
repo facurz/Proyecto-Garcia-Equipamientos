@@ -1,0 +1,72 @@
+.item1__img {
+    position: relative;
+    top: 10px;
+    background-image: url("../assets/categ_hornos/Horno_electrico_TST_Donna.jpg");
+    background-position: center;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item2__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_hornos/Horno_Patelero_Depaolo.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item3__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_hornos/Horno_Convector_electricoz10.jpeg");
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item4__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets//categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item5__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_hornos/Horno_Luxor_Gas_Garden550.jpg");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item6__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_hornos/Horno_Luxor_country.jpg");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}

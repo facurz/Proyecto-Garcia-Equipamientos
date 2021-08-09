@@ -54,6 +54,57 @@ header {
     align-items: center;
     width: 90%;
 }
+.headerLogo__userMenu {
+    display: flex;
+    align-items: center;
+}
+.headerLogo__hamburguerMenu {
+    display: none;
+}
+.headerLogo__hamburguerMenu ul{
+    display: none;
+}
+  
+.headerLogo__hamburguerMenu input:checked  ~ ul{
+    display:block;
+}
+  
+.headerLogo__hamburguerMenu  input {
+    display: none;
+}
+  
+
+  /* Estilo del boton cuando se pasa el mouse por encima*/
+.headerLogo__hamburguerMenu label:hover{
+    filter: brightness(110%);
+    cursor: pointer;
+}
+  
+  /* Estilo del boton cuando el menú está expandido*/
+  
+  
+.headerLogo__hamburguerMenu  ul{
+    margin-top:0;
+    padding: 0;
+    width: 200px;
+  
+}
+  
+  
+.headerLogo__hamburguerMenu li {
+    display: block;
+    background: lightgrey;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+    border-bottom: 1px solid grey;
+}
+  
+  /*Estilo cuando el mouse pasa encima de cada link del menu*/
+.headerLogo__hamburguerMenu li:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+  }
 .headerLogo__busqueda {
     padding-left: 20px;
     height: 40px;
@@ -81,7 +132,7 @@ header input {
     align-items: center;
     justify-content: center;
 }
-.headerLogo__iconos span {
+.headerLogo span {
     font-size: 1.2rem;
     color: white;
     text-decoration: none;
@@ -658,7 +709,49 @@ footer {
         text-align: center;
     
 }
-
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    header {
+        margin-top: 15px;
+    }
+    .headerLogo {
+    flex-wrap: wrap;
+    }
+    .headerLogo__userMenu {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    .headerLogo__hamburguerMenu {
+        display: inline-block;
+    }
+    .headerLogo__busqueda {
+        margin-bottom: 10px;
+    }
+    .banner {
+        height: 110px;
+        background-image: url('../assets/slide.jpg');
+        background-size: contain;
+    }
+    .navMenu {
+        display: none;
+    }
+     .presentacion__showroom h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    
+}
 
 
 

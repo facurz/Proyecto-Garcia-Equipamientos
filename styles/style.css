@@ -56,7 +56,7 @@ header {
 }
 .headerLogo__userMenu {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 .headerLogo__hamburguerMenu {
     display: none;
@@ -87,7 +87,6 @@ header {
     margin-top:0;
     padding: 0;
     width: 200px;
-  
 }
   
   
@@ -735,6 +734,12 @@ footer {
     }
     .headerLogo__hamburguerMenu {
         display: inline-block;
+    }
+    .headerLogo__userMenu {
+        justify-content: center;
+    }
+    .headerLogo span {
+        display: none;
     }
     .headerLogo__busqueda {
         margin-bottom: 10px;

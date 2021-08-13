@@ -34,6 +34,10 @@ body {
 a {
     text-decoration: none;
 }
+small {
+    font-size: 1.4rem;
+    color: white;
+}
 
 
 /*=========== estilo header compratido ===========*/
@@ -155,6 +159,11 @@ header input {
     font-weight: bold;
     color: white;
 }
+.presentacion__showroom--titulo {
+    width: 100%;
+    text-align: center;
+}
+
 .presentacion__showroom--img1 {
     background-image: url("../assets/showroom01.jpg");
     background-position: center;

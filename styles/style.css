@@ -30,118 +30,55 @@ p {
 }
 body {
     background-color: #583d1c;
-    width: 100%;
-}
+    }
 a {
     text-decoration: none;
 }
 
 
 /*=========== estilo header compratido ===========*/
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    min-width: 320px;
-    height: auto;
+.navbar {
+    display: none;
 }
-.headerLogo {
-    display: flex;
-    justify-content: center;
+.header__top {
     border-bottom: 1px solid rgb(195, 106, 0);
-    align-items: center;
-    width: 90%;
 }
-.headerLogo__userMenu {
-    display: flex;
-    align-items: flex-start;
+.logotipo {
+    width: 100%;
+    object-fit: cover;
 }
-.headerLogo__hamburguerMenu {
-    display: none;
-}
-.headerLogo__hamburguerMenu ul{
-    display: none;
-}
-  
-.headerLogo__hamburguerMenu input:checked  ~ ul{
-    display:block;
-}
-  
-.headerLogo__hamburguerMenu  input {
-    display: none;
-}
-  
-
-  /* Estilo del boton cuando se pasa el mouse por encima*/
-.headerLogo__hamburguerMenu label:hover{
-    filter: brightness(110%);
-    cursor: pointer;
-}
-  
-  /* Estilo del boton cuando el menú está expandido*/
-  
-  
-.headerLogo__hamburguerMenu  ul{
-    margin-top:0;
-    padding: 0;
-    width: 200px;
-}
-  
-  
-.headerLogo__hamburguerMenu li {
-    display: block;
-    background: lightgrey;
-    margin: 0;
-    padding: 10px;
-    list-style: none;
-    border-bottom: 1px solid grey;
-}
-  
-  /*Estilo cuando el mouse pasa encima de cada link del menu*/
-.headerLogo__hamburguerMenu li:hover {
-    filter: brightness(110%);
-    cursor: pointer;
-  }
-.headerLogo__busqueda {
-    padding-left: 20px;
-    height: 40px;
-    width: 50%;
-    min-width: 320px;
+.header__busqueda {
+    padding-left: 5px;
+    height: 35px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 0.05);
     border: 1px solid rgb(195, 106, 0);
     border-radius: 25px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-style: italic;
     color: white;
 }
-.headerLogo__busqueda::placeholder {
-    font-size: 1.6rem;
+.header__busqueda::placeholder {
+    font-size: 1.4rem;
     font-style: italic;
     color: white;
 }
 header input {
+    margin: 5px auto;
     border: none;
     outline: none;
 }
-.headerLogo__iconos {
-    display: flex;
-    width: 80px;
-    align-items: center;
-    justify-content: center;
-}
-.headerLogo span {
+.header__top span {
     font-size: 1.2rem;
     color: white;
     text-decoration: none;
-    padding-left: 5px;
 }
 .navMenu {
+    padding: 0;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     list-style-type: none;
-    width: 90vw;
+    width: 100vw;
 }
 .navMenu a {
    display: block; 
@@ -157,8 +94,9 @@ header input {
     color: rgb(214, 161, 96);
 }
 .banner {
-    margin: 5px auto;
-    width: 90%;
+    margin: 5px 0 5px 0;
+    padding-left: 0;
+    width: 100vw;
     height: 200px;
     background-image: url('../assets/slide.jpg');
     background-repeat: no-repeat;
@@ -191,24 +129,13 @@ header input {
 
 /*=========== estilo mainIndex ===========*/
 
-.mainIndex {
-    display: flex;
-    flex-flow: column wrap;
-    margin: 0 auto;
-    padding-bottom: 5px;
-    width: 90%;
-    height: auto;     
-}
+
 .presentacion {
     display: flex;
     justify-content: center;
     margin: 10px auto;
     width: 100%;
     height: auto;
-}
-.presentacion__text {
-    width: 60%;
-    padding-left: 20px;
 }
 .presentacion__text p {
     padding: 10px 0 10px 10px;
@@ -219,14 +146,14 @@ header input {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 40%;
-    padding-left: 20px;
 }
 .presentacion__showroom h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
     font-size: 2.4rem;
     font-weight: bold;
     color: white;
-    padding: 0 50px;
 }
 .presentacion__showroom--img1 {
     background-image: url("../assets/showroom01.jpg");
@@ -241,9 +168,6 @@ header input {
     transform: scale(1);
     transition: all 0.4s ease-in-out;
 }
-.presentacion__showroom--img1:hover {
-    transform: scale(1.5);
-}
 .presentacion__showroom--img2 {
     background-image: url("../assets/showroom02.jpg");
     background-position: center;
@@ -256,9 +180,6 @@ header input {
     border-radius: 10px;
     transform: scale(1);
     transition: all 0.4s ease-in-out;
-}
-.presentacion__showroom--img2:hover {
-    transform: scale(1.5);
 }
 .presentacion__showroom--img3 {
     background-image: url("../assets/showroom03.jpeg");
@@ -273,9 +194,6 @@ header input {
     transform: scale(1);
     transition: all 0.4s ease-in-out;
 }
-.presentacion__showroom--img3:hover {
-    transform: scale(1.5);
-}
 .presentacion__showroom--img4 {
     background-image: url("../assets/showroom04.jpeg");
     background-position: center;
@@ -289,40 +207,45 @@ header input {
     transform: scale(1);
     transition: all 0.4s ease-in-out;
 }
-.presentacion__showroom--img4:hover {
+.presentacion__showroom--transform:hover {
     transform: scale(1.5);
 }
-.tituloNovedades {
+.novedades h2 {
     font-size: 2.4rem;
     font-weight: bold;
     color: white;
-    text-align: center;
+    padding: 5px;
     margin: 10px 0 10px;
     border: 1px ridge rgb(195, 106, 0);
     border-radius: 25px;
 }
-.mainIndex .novedades {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 90%;
-    margin: 5px auto;
+.novedades__card {
+    background-color: white;
+    border: 5px ridge rgb(195, 106, 0);
+    border-radius: 25px;
+    overflow: auto;
+}
+.novedades .card-body {
+    background-color: rgb(235, 228, 228)
+}
+.novedades .card-title {
+    font-size: 1.8rem;
+}
+.novedades .card-text {
+    color: black;
 }
 
 /*=========== estilos footer compartido ===========*/
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px auto;
-    padding-top: 10px;
-    width: 90%;
+    margin: 0 auto;
+    width: 100vw;
     border-top: 1px solid rgb(195, 106, 0); 
-
 }
 .footer__contactanos {
-    text-align: left;
-    padding-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb(195, 106, 0);
 }
 .footer__contactanos p {
     display: inline-block;
@@ -335,12 +258,18 @@ footer {
     height: 15px;
 }
 .footer__seguinos {
+    padding-top: 10px;
     text-align: center;
+    border-bottom: 1px solid rgb(195, 106, 0);
 }
 .footer__seguinos img {
     margin: 10px;
     width: 30px;
     height: 30px;
+}
+.footer__copyright {
+    padding-top: 10px;
+    text-align: center;
 }
 .whatsappFlotante {
     position:fixed;
@@ -686,17 +615,6 @@ footer {
     p {
         font-size: 1.2rem;
     }
-    .headerLogo {
-    flex-wrap: wrap;
-    }
-    .headerLogo__busqueda {
-        margin-bottom: 10px;
-    }
-    .banner {
-        height: 130px;
-        background-image: url('../assets/slide.jpg');
-        background-size: contain;
-    }
     .navMenu a {
         font-size: 1.6rem;
      }
@@ -706,57 +624,50 @@ footer {
      .presentacion__showroom h2 {
         font-size: 2.2rem;
         text-align: center;
-    
 }
+
 @media screen and (max-width: 576px) {
-    h1 {
-        font-size: 2.2rem;
+    .navbar {
+        display: block;
     }
-    h2 {
-        font-size: 1.6rem;
+    .navbar-toggler-icon {
+        background-image: url("../assets/hamburger-big.svg");
+        background-size: cover;
     }
-    h3 {
-        font-size: 1.4rem;
-    }
-    p {
-        font-size: 1.2rem;
-    }
-    header {
-        margin-top: 15px;
-    }
-    .headerLogo {
-    flex-wrap: wrap;
-    }
-    .headerLogo__userMenu {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-    }
-    .headerLogo__hamburguerMenu {
-        display: inline-block;
-    }
-    .headerLogo__userMenu {
-        justify-content: center;
-    }
-    .headerLogo span {
-        display: none;
-    }
-    .headerLogo__busqueda {
-        margin-bottom: 10px;
-    }
-    .banner {
-        height: 110px;
-        background-image: url('../assets/slide.jpg');
-        background-size: contain;
+    .header__top {
+        border-bottom: 0;
     }
     .navMenu {
         display: none;
     }
-     .presentacion__showroom h2 {
-        font-size: 2.2rem;
+    .logotipo {
+        width: 100;
+        object-fit: cover;
+    }
+    .nav-link {
+        display: block;
         text-align: center;
-    
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
+        border-bottom: 1px solid rgb(195, 106, 0);
+    }
+    .nav-link:hover {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: white;
+        border-bottom: 1px solid rgb(195, 106, 0);
+    }
+    .header__top span {
+        display: none;
+    }
+    .presentacion__showroom--transform:hover {
+        transform: none;
+        
 }
+
 
 
 

@@ -506,30 +506,45 @@ footer {
 }
 
 /*=========== estilos preguntas frecuentes ===========*/
-
-.mainPreguntasFrecuentes {
-    display: flex;
-    margin: 0 auto;
-    padding-bottom: 5px;
-    width: 90%;
-    height: auto; 
-} 
-.mainPreguntasFrecuentes__text {
-    margin-top: 10px;
-    padding-left: 20px;
-    width: 70%;
-    height: auto;    
+.main__preguntas--titulo {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
 }
-.mainPreguntasFrecuentes__text p {
+
+.main__preguntas p {
     padding: 10px 0 10px 10px;
     line-height: 2rem;
     text-align:left;
 }
-.mainPreguntasFrecuentes__text img {
+.main__preguntas img {
     padding: 5px;;
 }
-.envios {
-    margin: auto auto;
+.accordion-button {
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 1.8rem;
+    font-family: "DM Sans";
+    font-weight: bold;
+    color: white;
+}
+.accordion-button:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.accordion-button::after {
+    background-image: url("../assets/icons8-flecha-ampliar-50.png");
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 1.8rem;
+    font-family: "DM Sans";
+    font-weight: bold;
+    color: white;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/icons8-flecha-ampliar-50.png");  
+}
+.miAcordeon {
+    background-color: rgba(255, 255, 255, 0.03);
 }
 .envios__tabla {
     width: 300px;
@@ -548,35 +563,17 @@ footer {
 }
 
 /*=========== estilos Como comprar ===========*/
-
-.mainComoComprar {
-    margin: 0 auto;
-    padding-bottom: 5px;
-    width: 90%;
-    height: auto; 
+.main__comoComprar--titulo {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
 }
-.mainComoComprar__text {
-    margin-top: 10px;
-    padding-left: 20px;
-    width: 100%;
-    height: auto;  
-}
-.mainComoComprar ol {
-    padding: 0 0 20px 20px;
-}
-.mainComoComprar li {
+.main__comoComprar li {
     padding: 10px 0 10px 5px;
-    line-height: 2rem;
+    line-height: 2.5rem;
     text-align:left;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: white;
-}
-.mainComoComprar .novedades {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 90%;
-    margin: 5px auto;
 }
 
 /*=========== estilos contacto ===========*/
@@ -674,7 +671,6 @@ footer {
     }
     .presentacion__showroom--transform:hover {
         transform: none;
-        
 }
 
 

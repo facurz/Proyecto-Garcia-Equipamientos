@@ -219,14 +219,16 @@ header input {
 .presentacion__showroom--transform:hover {
     transform: scale(1.5);
 }
+.novedades__titulo {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
+}
+
 .novedades h2 {
     font-size: 2.4rem;
     font-weight: bold;
     color: white;
-    padding: 5px;
-    margin: 10px 0 10px;
-    border: 1px ridge rgb(195, 106, 0);
-    border-radius: 25px;
 }
 .novedades__card {
     background-color: white;
@@ -569,7 +571,7 @@ footer {
     height: 50px;
 }
 .main__comoComprar li {
-    padding: 10px 0 10px 5px;
+    padding: 10px 5px;
     line-height: 2.5rem;
     text-align:left;
     font-size: 1.8rem;
@@ -630,6 +632,13 @@ footer {
      .presentacion__showroom h2 {
         font-size: 2.2rem;
         text-align: center;
+     }
+     .main__comoComprar li {
+        padding: 10px 5px;
+        line-height: 2rem;
+        text-align:left;
+        font-size: 1.2rem;
+        color: white;
 }
 
 @media screen and (max-width: 576px) {

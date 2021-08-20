@@ -612,9 +612,14 @@ footer {
 }
 .btn-primary {
     display: block;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #614728;
     border-radius: 10px;
     border: 1px solid white;
+}
+.btn-primary:hover {
+    background-color: #614728;
+    border-color: #965d17;
+    color: #965d17;
 }
 .mainContacto__mapa {
     width: 100%;

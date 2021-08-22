@@ -345,7 +345,6 @@ footer {
     background-color: #524230;
     border-color: white;
 }
-
 .mainProductos__menu--boton:focus {
     background-color: #614728;
     border-color: white;
@@ -354,7 +353,6 @@ footer {
     background-color: #614728;
     width: 100%;
 }
-
 
 .mainProductos__items {
     display: grid;
@@ -734,6 +732,22 @@ footer {
     }
     .presentacion__showroom--transform:hover {
         transform: none;
+    }
+    .mainProductos__items {
+        display: grid;
+        grid-template-areas: 
+        "item1" 
+        "item2" 
+        "item3" 
+        "item4" 
+        "item5" 
+        "item6"; 
+        grid-template-rows: repeat(6, 300px);
+        grid-template-columns: 250px;
+        row-gap: 10px;
+        column-gap: 10px;
+        height: auto;
+        margin: 0px 20px 15px 20px; 
     }
 }
 

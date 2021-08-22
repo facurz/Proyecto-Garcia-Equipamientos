@@ -1,0 +1,220 @@
+/*=========== mainProductos ===========*/
+
+.main__productos--titulo {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+.categorias span {
+    display: inline-block;
+    background-image: url("../assets/expand_more_white_24dp.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 7px;
+    width: 23px;
+    height: 23px;
+}
+.mainProductos__menu li {
+    list-style-type: none;
+    
+}
+.mainProductos__menu a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    line-height: 30px;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.categorias__submenu {
+    display: none;
+    position: absolute;
+    padding-top: 10px;
+}
+.categorias__submenu a:hover {
+    font-weight: bold;
+    color: rgb(214, 161, 96);
+}
+.categorias li:hover .categorias__submenu {
+    display: block;
+}
+.mainProductos__menu--boton {
+    background-color: #614728;
+    border-color: white;
+}
+.mainProductos__menu--boton:hover {
+    background-color: #524230;
+    border-color: white;
+}
+.mainProductos__menu--boton:focus {
+    background-color: #614728;
+    border-color: white;
+}
+.mainProductos__menu ul {
+    background-color: #614728;
+    width: 100%;
+}
+
+.mainProductos__items {
+    display: grid;
+    grid-template-areas: 
+    "item1 item2 item3" 
+    "item4 item5 item6"; 
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
+    height: auto;
+    margin: 0px 20px 15px 20px; 
+}
+.item1 {
+    grid-area: item1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item2 {
+    grid-area: item2;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item3 {
+    grid-area: item3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item4 {
+    grid-area: item4;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item5 {
+    grid-area: item5;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.item6 {    
+    grid-area: item6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.box {
+ background-color: white;
+ border: 5px ridge rgb(195, 106, 0);
+ border-radius: 25px;
+ overflow: auto;
+}
+.mainProductos__items h3 {
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 5px solid rgb(195, 106, 0);
+    line-height: 1.5rem;
+    color: rgb(41, 38, 38);
+}
+.mainProductos__items h2 {
+    padding-top: 3px;
+    color: rgb(195, 106, 0);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-size: 2.8rem;
+}
+.items__buttons button {
+    height: 36px;
+    border: 2px solid rgb(195, 106, 0);
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: rgb(41, 38, 38);
+    border-radius: 25px;
+    padding: 0 15px;
+    margin: 10px 12px;
+}
+.items__buttons button:hover {
+    cursor: pointer;
+    border: 2px outset rgb(195, 106, 0);
+    box-shadow: 1px 1px rgb(177, 171, 171);
+}
+.item1__img {
+    position: relative;
+    top: 10px;
+    background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item2__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item3__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item4__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item5__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}
+.item6__img {
+    position: relative;
+    top: 8px;
+    background-image: url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg");
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 150px;
+    padding-bottom: 100px;
+}

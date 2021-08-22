@@ -1,0 +1,56 @@
+/*===========  preguntas frecuentes ===========*/
+.main__preguntas--titulo {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
+}
+
+.main__preguntas p {
+    padding: 10px 0 10px 10px;
+    line-height: 2rem;
+    text-align:left;
+}
+.main__preguntas img {
+    padding: 5px;;
+}
+.accordion-button {
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 1.8rem;
+    font-family: "DM Sans";
+    font-weight: bold;
+    color: white;
+}
+.accordion-button:hover {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.accordion-button::after {
+    background-image: url("../assets/icons8-flecha-ampliar-50.png");
+}
+.accordion-button:not(.collapsed) {
+    background-color: rgba(255, 255, 255, 0.03);
+    font-size: 1.8rem;
+    font-family: "DM Sans";
+    font-weight: bold;
+    color: white;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("../assets/icons8-flecha-ampliar-50.png");  
+}
+.miAcordeon {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+.envios__tabla {
+    width: 300px;
+    height: 300px;
+    border: 1px double rgb(195, 106, 0) ;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to bottom, #583d1c, #965d17);
+}
+.envios__tabla th {
+    font-size: 1.6rem;
+}
+.envios__tabla td {
+    font-size: 1.4rem;
+    border: 1px solid rgb(195, 106, 0);   
+}

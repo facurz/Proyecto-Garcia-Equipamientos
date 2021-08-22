@@ -1,0 +1,205 @@
+/*=========== header compartido ===========*/
+.navbar {
+    display: none;
+}
+.header__top {
+    border-bottom: 1px solid rgb(195, 106, 0);
+}
+.logotipo {
+    width: 100%;
+    object-fit: cover;
+}
+.header__busqueda {
+    padding-left: 5px;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+}
+.header__busqueda::placeholder {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: white;
+}
+header input {
+    margin: 5px auto;
+    border: none;
+    outline: none;
+}
+.header__top span {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+.navMenu {
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    width: 100vw;
+}
+.navMenu a {
+   display: block; 
+   padding: 5px 0;
+   text-decoration: none;
+   font-size: 1.8rem;
+   color: white;
+   transition: font-size 0.3s;
+}
+.navMenu a:hover {
+    text-shadow: black 2px 1px;
+    font-size: 2rem;
+    color: rgb(214, 161, 96);
+}
+.banner {
+    margin: 5px 0 5px 0;
+    padding-left: 0;
+    width: 100vw;
+    height: 200px;
+    background-image: url('../assets/slide.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: double ;
+    border-color: rgb(195, 106, 0);
+    animation: banner 9s infinite linear;
+}
+@keyframes banner {
+    0% {
+         background-image: url("../assets/slide.jpg");
+    }
+    33% {
+         background-image: url("../assets/slide.jpg");
+    }
+    34% {
+         background-image: url("../assets/slide1.jpg");
+    }
+    66% {
+         background-image: url("../assets/slide1.jpg");
+    }
+   67% {
+         background-image: url("../assets/slide2.jpg");
+    }
+   100% {
+         background-image: url("../assets/slide2.jpg");
+    }
+}
+
+/*=========== estilo mainIndex ===========*/
+
+
+.presentacion {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+}
+.presentacion__text p {
+    padding: 10px 0 10px 10px;
+    line-height: 2rem;
+    text-align:left;
+}
+.presentacion__showroom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.presentacion__showroom h2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+.presentacion__showroom--titulo {
+    width: 100%;
+    text-align: center;
+}
+
+.presentacion__showroom--img1 {
+    background-image: url("../assets/showroom01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img2 {
+    background-image: url("../assets/showroom02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img3 {
+    background-image: url("../assets/showroom03.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img4 {
+    background-image: url("../assets/showroom04.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border: 1px solid rgb(195, 106, 0);
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--transform:hover {
+    transform: scale(1.5);
+}
+.novedades__titulo {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
+}
+
+.novedades h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: white;
+}
+.novedades__card {
+    background-color: white;
+    border: 5px ridge rgb(195, 106, 0);
+    border-radius: 25px;
+    overflow: auto;
+}
+.novedades .card-body {
+    background-color: rgb(235, 228, 228)
+}
+.novedades .card-title {
+    font-size: 1.8rem;
+}
+.novedades .card-text {
+    color: black;
+}

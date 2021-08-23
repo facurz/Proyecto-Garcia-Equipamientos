@@ -40,6 +40,7 @@
 .categorias li:hover .categorias__submenu {
     display: block;
 }
+
 .mainProductos__menu--boton {
     background-color: #614728;
     border-color: white;
@@ -69,71 +70,40 @@
     height: auto;
     margin: 0px 20px 15px 20px; 
 }
-.item1 {
-    grid-area: item1;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+
+@each $name, $item in $grid-items {
+    .item-#{$name} {
+        grid-area: $item;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
 }
-.item2 {
-    grid-area: item2;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-.item3 {
-    grid-area: item3;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-.item4 {
-    grid-area: item4;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-.item5 {
-    grid-area: item5;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-.item6 {    
-    grid-area: item6;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
+
 .box {
  background-color: white;
- border: 5px ridge rgb(195, 106, 0);
+ border: 5px ridge $colorNaranja;
  border-radius: 25px;
  overflow: auto;
 }
 .mainProductos__items h3 {
     margin-top: 15px;
     padding-top: 5px;
-    border-top: 5px solid rgb(195, 106, 0);
+    border-top: 5px solid $colorNaranja;
     line-height: 1.5rem;
     color: rgb(41, 38, 38);
 }
 .mainProductos__items h2 {
     padding-top: 3px;
-    color: rgb(195, 106, 0);
+    color: $colorNaranja;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     font-size: 2.8rem;
 }
 .items__buttons button {
     height: 36px;
-    border: 2px solid rgb(195, 106, 0);
+    border: 2px solid $colorNaranja;
     font-size: 1.6rem;
     font-weight: bold;
     color: rgb(41, 38, 38);
@@ -143,78 +113,25 @@
 }
 .items__buttons button:hover {
     cursor: pointer;
-    border: 2px outset rgb(195, 106, 0);
+    border: 2px outset $colorNaranja;
     box-shadow: 1px 1px rgb(177, 171, 171);
 }
 .item1__img {
-    position: relative;
-    top: 10px;
-    background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 150px;
-    padding-bottom: 100px;
+    @include imagesStyles(url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg"), 80%);
 }
 .item2__img {
-    position: relative;
-    top: 8px;
-    background-image: url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 150px;
-    padding-bottom: 100px;
+    @include imagesStyles(url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg"), 80%);
 }
 .item3__img {
-    position: relative;
-    top: 8px;
-    background-image: url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 150px;
-    padding-bottom: 100px;
+    @include imagesStyles(url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg"), 80%);
 }
 .item4__img {
-    position: relative;
-    top: 8px;
-    background-image: url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png");
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 150px;
-    padding-bottom: 100px;
+    @include imagesStyles(url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png"), contain);
 }
 .item5__img {
-    position: relative;
-    top: 8px;
-    background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 150px;
-    padding-bottom: 100px;
+    @include imagesStyles(url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg"), 80%);
 }
 .item6__img {
-    position: relative;
-    top: 8px;
-    background-image: url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg");
-    background-position: center;
-    background-size: 80%;
-    background-repeat: no-repeat;
-    border-radius: 25px 25px 0 0;
-    width: 100%;
-    height: 150px;
-    padding-bottom: 100px;
+    @include imagesStyles(url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg"), 80%);
 }
+

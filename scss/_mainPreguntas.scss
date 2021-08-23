@@ -42,7 +42,7 @@
 .envios__tabla {
     width: 300px;
     height: 300px;
-    border: 1px double rgb(195, 106, 0) ;
+    border: 1px double $colorNaranja ;
     color: white;
     text-align: center;
     background: linear-gradient(to bottom, #583d1c, #965d17);
@@ -52,5 +52,5 @@
 }
 .envios__tabla td {
     font-size: 1.4rem;
-    border: 1px solid rgb(195, 106, 0);   
+    border: 1px solid $colorNaranja;   
 }

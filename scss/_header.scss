@@ -1,57 +1,61 @@
 /*=========== header compartido ===========*/
-.header__navBar {
-    display: none;
-}
-.header__top {
-    border-bottom: 1px solid rgb(195, 106, 0);
-}
-header .logotipo {
+.logotipo {
     width: 100%;
     object-fit: cover;
 }
-.header__top--busqueda {
-    margin: 5px auto;
-    padding-left: 5px;
-    height: 35px;
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgb(195, 106, 0);
-    border-radius: 25px;
-    font-size: 1.5rem;
-    font-style: italic;
-    color: white;
-    outline: none;
+
+.header__navBar {
+    display: none;
 }
-.header__busqueda::placeholder {
-    font-size: 1.4rem;
-    font-style: italic;
-    color: white;
+
+.header__top {
+    border-bottom: 1px solid $colorNaranja;
+    &--busqueda {
+        margin: 5px auto;
+        padding-left: 5px;
+        height: 35px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 1px solid $colorNaranja;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: white;
+        outline: none;
+    }
+    &--busqueda::placeholder {
+        font-size: 1.4rem;
+        font-style: italic;
+        color: white;
+    }
+    span {
+        font-size: 1.2rem;
+        color: white;
+        text-decoration: none;
+    }
 }
-.header__top span {
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: none;
-}
+
 .header__navMenu {
     padding: 0;
     display: flex;
     justify-content:space-evenly;
     list-style-type: none;
     width: 100vw;
+    a {
+        display: block; 
+        padding: 5px 0;
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: white;
+        transition: font-size 0.3s;
+     }
+    a:hover {
+        text-shadow: black 2px 1px;
+        font-size: 2rem;
+        color: rgb(214, 161, 96);
+    }
 }
-.header__navMenu a {
-   display: block; 
-   padding: 5px 0;
-   text-decoration: none;
-   font-size: 1.8rem;
-   color: white;
-   transition: font-size 0.3s;
-}
-.header__navMenu a:hover {
-    text-shadow: black 2px 1px;
-    font-size: 2rem;
-    color: rgb(214, 161, 96);
-}
+
 .header__banner {
     margin: 5px 0 5px 0;
     padding-left: 0;
@@ -62,7 +66,7 @@ header .logotipo {
     background-position: center;
     background-size: cover;
     border-style: double ;
-    border-color: rgb(195, 106, 0);
+    border-color: $colorNaranja;
     animation: header__banner 9s infinite linear;
 }
 @keyframes header__banner {

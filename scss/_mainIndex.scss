@@ -30,58 +30,33 @@
     width: 100%;
     text-align: center;
 }
-
-.presentacion__showroom--img1 {
-    background-image: url("../assets/showroom01.jpg");
+.presentacion__showroom--images {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 10px;
     width: 150px;
     height: 150px;
-    border: 1px solid rgb(195, 106, 0);
+    border: 1px solid $colorNaranja;
     border-radius: 10px;
     transform: scale(1);
     transition: all 0.4s ease-in-out;
+}
+.presentacion__showroom--img1 {
+    background-image: url("../assets/showroom01.jpg");
+    @extend .presentacion__showroom--images;
 }
 .presentacion__showroom--img2 {
     background-image: url("../assets/showroom02.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px;
-    width: 150px;
-    height: 150px;
-    border: 1px solid rgb(195, 106, 0);
-    border-radius: 10px;
-    transform: scale(1);
-    transition: all 0.4s ease-in-out;
+    @extend .presentacion__showroom--images;
 }
 .presentacion__showroom--img3 {
     background-image: url("../assets/showroom03.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px;
-    width: 150px;
-    height: 150px;
-    border: 1px solid rgb(195, 106, 0);
-    border-radius: 10px;
-    transform: scale(1);
-    transition: all 0.4s ease-in-out;
+    @extend .presentacion__showroom--images;
 }
 .presentacion__showroom--img4 {
     background-image: url("../assets/showroom04.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 10px;
-    width: 150px;
-    height: 150px;
-    border: 1px solid rgb(195, 106, 0);
-    border-radius: 10px;
-    transform: scale(1);
-    transition: all 0.4s ease-in-out;
+    @extend .presentacion__showroom--images;
 }
 .presentacion__showroom--transform:hover {
     transform: scale(1.5);
@@ -99,7 +74,7 @@
 }
 .novedades__card {
     background-color: white;
-    border: 5px ridge rgb(195, 106, 0);
+    border: 5px ridge $colorNaranja;
     border-radius: 25px;
     overflow: auto;
 }

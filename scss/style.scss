@@ -97,7 +97,7 @@
         text-decoration: none;
         font-size: 1.6rem;
         color: white;
-        border-bottom: 1px solid rgb(195, 106, 0);
+        border-bottom: 1px solid $colorNaranja;
     }
     .nav-link:hover {
         display: block;
@@ -105,7 +105,7 @@
         text-decoration: none;
         font-size: 1.8rem;
         color: white;
-        border-bottom: 1px solid rgb(195, 106, 0);
+        border-bottom: 1px solid $colorNaranja;
     }
     .header__top span {
         display: none;

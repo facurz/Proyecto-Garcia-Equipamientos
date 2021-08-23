@@ -36,39 +36,38 @@ small {
   font-size: 1.4rem;
   color: white; }
 
+/*=========== variables ===========*/
+/*=========== mixin ===========*/
 /*=========== header compartido ===========*/
+.logotipo {
+  width: 100%;
+  object-fit: cover; }
+
 .header__navBar {
   display: none; }
 
 .header__top {
-  border-bottom: 1px solid #c36a00; }
-
-header .logotipo {
-  width: 100%;
-  object-fit: cover; }
-
-.header__top--busqueda {
-  margin: 5px auto;
-  padding-left: 5px;
-  height: 35px;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.05);
-  border: 1px solid #c36a00;
-  border-radius: 25px;
-  font-size: 1.5rem;
-  font-style: italic;
-  color: white;
-  outline: none; }
-
-.header__busqueda::placeholder {
-  font-size: 1.4rem;
-  font-style: italic;
-  color: white; }
-
-.header__top span {
-  font-size: 1.2rem;
-  color: white;
-  text-decoration: none; }
+  border-bottom: 1px solid #c36a09; }
+  .header__top--busqueda {
+    margin: 5px auto;
+    padding-left: 5px;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #c36a09;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: white;
+    outline: none; }
+  .header__top--busqueda::placeholder {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: white; }
+  .header__top span {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none; }
 
 .header__navMenu {
   padding: 0;
@@ -76,19 +75,17 @@ header .logotipo {
   justify-content: space-evenly;
   list-style-type: none;
   width: 100vw; }
-
-.header__navMenu a {
-  display: block;
-  padding: 5px 0;
-  text-decoration: none;
-  font-size: 1.8rem;
-  color: white;
-  transition: font-size 0.3s; }
-
-.header__navMenu a:hover {
-  text-shadow: black 2px 1px;
-  font-size: 2rem;
-  color: #d6a160; }
+  .header__navMenu a {
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: white;
+    transition: font-size 0.3s; }
+  .header__navMenu a:hover {
+    text-shadow: black 2px 1px;
+    font-size: 2rem;
+    color: #d6a160; }
 
 .header__banner {
   margin: 5px 0 5px 0;
@@ -100,7 +97,7 @@ header .logotipo {
   background-position: center;
   background-size: cover;
   border-style: double;
-  border-color: #c36a00;
+  border-color: #c36a09;
   animation: header__banner 9s infinite linear; }
 
 @keyframes header__banner {
@@ -147,57 +144,29 @@ header .logotipo {
   width: 100%;
   text-align: center; }
 
-.presentacion__showroom--img1 {
-  background-image: url("../assets/showroom01.jpg");
+.presentacion__showroom--images, .presentacion__showroom--img1, .presentacion__showroom--img2, .presentacion__showroom--img3, .presentacion__showroom--img4 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 10px;
   width: 150px;
   height: 150px;
-  border: 1px solid #c36a00;
+  border: 1px solid #c36a09;
   border-radius: 10px;
   transform: scale(1);
   transition: all 0.4s ease-in-out; }
+
+.presentacion__showroom--img1 {
+  background-image: url("../assets/showroom01.jpg"); }
 
 .presentacion__showroom--img2 {
-  background-image: url("../assets/showroom02.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #c36a00;
-  border-radius: 10px;
-  transform: scale(1);
-  transition: all 0.4s ease-in-out; }
+  background-image: url("../assets/showroom02.jpg"); }
 
 .presentacion__showroom--img3 {
-  background-image: url("../assets/showroom03.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #c36a00;
-  border-radius: 10px;
-  transform: scale(1);
-  transition: all 0.4s ease-in-out; }
+  background-image: url("../assets/showroom03.jpeg"); }
 
 .presentacion__showroom--img4 {
-  background-image: url("../assets/showroom04.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #c36a00;
-  border-radius: 10px;
-  transform: scale(1);
-  transition: all 0.4s ease-in-out; }
+  background-image: url("../assets/showroom04.jpeg"); }
 
 .presentacion__showroom--transform:hover {
   transform: scale(1.5); }
@@ -214,7 +183,7 @@ header .logotipo {
 
 .novedades__card {
   background-color: white;
-  border: 5px ridge #c36a00;
+  border: 5px ridge #c36a09;
   border-radius: 25px;
   overflow: auto; }
 
@@ -231,12 +200,12 @@ header .logotipo {
 footer {
   margin: 0 auto;
   width: 100vw;
-  border-top: 1px solid #c36a00; }
+  border-top: 1px solid #c36a09; }
 
 .footer__contactanos {
   padding-top: 10px;
   text-align: center;
-  border-bottom: 1px solid #c36a00; }
+  border-bottom: 1px solid #c36a09; }
 
 .footer__contactanos p {
   display: inline-block;
@@ -251,7 +220,7 @@ footer {
 .footer__seguinos {
   padding-top: 10px;
   text-align: center;
-  border-bottom: 1px solid #c36a00; }
+  border-bottom: 1px solid #c36a09; }
 
 .footer__seguinos img {
   margin: 10px;
@@ -340,43 +309,43 @@ footer {
   height: auto;
   margin: 0px 20px 15px 20px; }
 
-.item1 {
-  grid-area: item1;
+.item-1 {
+  grid-area: "item1";
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center; }
 
-.item2 {
-  grid-area: item2;
+.item-2 {
+  grid-area: "item2";
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center; }
 
-.item3 {
-  grid-area: item3;
+.item-3 {
+  grid-area: "item3";
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center; }
 
-.item4 {
-  grid-area: item4;
+.item-4 {
+  grid-area: "item4";
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center; }
 
-.item5 {
-  grid-area: item5;
+.item-5 {
+  grid-area: "item5";
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center; }
 
-.item6 {
-  grid-area: item6;
+.item-6 {
+  grid-area: "item6";
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -384,27 +353,27 @@ footer {
 
 .box {
   background-color: white;
-  border: 5px ridge #c36a00;
+  border: 5px ridge #c36a09;
   border-radius: 25px;
   overflow: auto; }
 
 .mainProductos__items h3 {
   margin-top: 15px;
   padding-top: 5px;
-  border-top: 5px solid #c36a00;
+  border-top: 5px solid #c36a09;
   line-height: 1.5rem;
   color: #292626; }
 
 .mainProductos__items h2 {
   padding-top: 3px;
-  color: #c36a00;
+  color: #c36a09;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 500;
   font-size: 2.8rem; }
 
 .items__buttons button {
   height: 36px;
-  border: 2px solid #c36a00;
+  border: 2px solid #c36a09;
   font-size: 1.6rem;
   font-weight: bold;
   color: #292626;
@@ -414,15 +383,15 @@ footer {
 
 .items__buttons button:hover {
   cursor: pointer;
-  border: 2px outset #c36a00;
+  border: 2px outset #c36a09;
   box-shadow: 1px 1px #b1abab; }
 
 .item1__img {
-  position: relative;
-  top: 10px;
   background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg");
-  background-position: center;
   background-size: 80%;
+  position: relative;
+  top: 8px;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
   width: 100%;
@@ -430,11 +399,11 @@ footer {
   padding-bottom: 100px; }
 
 .item2__img {
+  background-image: url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg");
+  background-size: 80%;
   position: relative;
   top: 8px;
-  background-image: url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg");
   background-position: center;
-  background-size: 80%;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
   width: 100%;
@@ -442,11 +411,11 @@ footer {
   padding-bottom: 100px; }
 
 .item3__img {
+  background-image: url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg");
+  background-size: 80%;
   position: relative;
   top: 8px;
-  background-image: url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg");
   background-position: center;
-  background-size: 80%;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
   width: 100%;
@@ -454,11 +423,11 @@ footer {
   padding-bottom: 100px; }
 
 .item4__img {
+  background-image: url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png");
+  background-size: contain;
   position: relative;
   top: 8px;
-  background-image: url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png");
   background-position: center;
-  background-size: contain;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
   width: 100%;
@@ -466,11 +435,11 @@ footer {
   padding-bottom: 100px; }
 
 .item5__img {
+  background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg");
+  background-size: 80%;
   position: relative;
   top: 8px;
-  background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg");
   background-position: center;
-  background-size: 80%;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
   width: 100%;
@@ -478,11 +447,11 @@ footer {
   padding-bottom: 100px; }
 
 .item6__img {
+  background-image: url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg");
+  background-size: 80%;
   position: relative;
   top: 8px;
-  background-image: url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg");
   background-position: center;
-  background-size: 80%;
   background-repeat: no-repeat;
   border-radius: 25px 25px 0 0;
   width: 100%;
@@ -532,7 +501,7 @@ footer {
 .envios__tabla {
   width: 300px;
   height: 300px;
-  border: 1px double #c36a00;
+  border: 1px double #c36a09;
   color: white;
   text-align: center;
   background: linear-gradient(to bottom, #583d1c, #965d17); }
@@ -542,7 +511,7 @@ footer {
 
 .envios__tabla td {
   font-size: 1.4rem;
-  border: 1px solid #c36a00; }
+  border: 1px solid #c36a09; }
 
 /*=========== Como comprar ===========*/
 .main__comoComprar--titulo {
@@ -660,14 +629,14 @@ footer {
     text-decoration: none;
     font-size: 1.6rem;
     color: white;
-    border-bottom: 1px solid #c36a00; }
+    border-bottom: 1px solid #c36a09; }
   .nav-link:hover {
     display: block;
     text-align: center;
     text-decoration: none;
     font-size: 1.8rem;
     color: white;
-    border-bottom: 1px solid #c36a00; }
+    border-bottom: 1px solid #c36a09; }
   .header__top span {
     display: none; }
   .presentacion__showroom--transform:hover {

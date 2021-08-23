@@ -37,17 +37,18 @@ small {
   color: white; }
 
 /*=========== header compartido ===========*/
-.navbar {
+.header__navBar {
   display: none; }
 
 .header__top {
   border-bottom: 1px solid #c36a00; }
 
-.logotipo {
+header .logotipo {
   width: 100%;
   object-fit: cover; }
 
-.header__busqueda {
+.header__top--busqueda {
+  margin: 5px auto;
   padding-left: 5px;
   height: 35px;
   width: 100%;
@@ -56,31 +57,27 @@ small {
   border-radius: 25px;
   font-size: 1.5rem;
   font-style: italic;
-  color: white; }
+  color: white;
+  outline: none; }
 
 .header__busqueda::placeholder {
   font-size: 1.4rem;
   font-style: italic;
   color: white; }
 
-header input {
-  margin: 5px auto;
-  border: none;
-  outline: none; }
-
 .header__top span {
   font-size: 1.2rem;
   color: white;
   text-decoration: none; }
 
-.navMenu {
+.header__navMenu {
   padding: 0;
   display: flex;
   justify-content: space-evenly;
   list-style-type: none;
   width: 100vw; }
 
-.navMenu a {
+.header__navMenu a {
   display: block;
   padding: 5px 0;
   text-decoration: none;
@@ -88,12 +85,12 @@ header input {
   color: white;
   transition: font-size 0.3s; }
 
-.navMenu a:hover {
+.header__navMenu a:hover {
   text-shadow: black 2px 1px;
   font-size: 2rem;
   color: #d6a160; }
 
-.banner {
+.header__banner {
   margin: 5px 0 5px 0;
   padding-left: 0;
   width: 100vw;
@@ -104,9 +101,9 @@ header input {
   background-size: cover;
   border-style: double;
   border-color: #c36a00;
-  animation: banner 9s infinite linear; }
+  animation: header__banner 9s infinite linear; }
 
-@keyframes banner {
+@keyframes header__banner {
   0% {
     background-image: url("../assets/slide.jpg"); }
   33% {
@@ -619,9 +616,9 @@ footer {
     font-size: 1.4rem; }
   p {
     font-size: 1.2rem; }
-  .navMenu a {
+  .header__navMenu a {
     font-size: 1.6rem; }
-  .navMenu a:hover {
+  .header__navMenu a:hover {
     font-size: 1.8rem; }
   .presentacion__showroom h2 {
     font-size: 2.2rem;
@@ -645,14 +642,14 @@ footer {
     margin: 0px 20px 15px 20px; } }
 
 @media screen and (max-width: 576px) {
-  .navbar {
+  .header__navBar {
     display: block; }
   .navbar-toggler-icon {
     background-image: url("../assets/hamburger-big.svg");
     background-size: cover; }
   .header__top {
     border-bottom: 0; }
-  .navMenu {
+  .header__navMenu {
     display: none; }
   .logotipo {
     width: 100;

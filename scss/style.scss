@@ -1,5 +1,6 @@
 @import "./globales";
 @import "./header";
+@import "./mainIndex";
 @import "./footer";
 @import "./mainProductos";
 @import "./mainPreguntas";
@@ -37,10 +38,10 @@
     p {
         font-size: 1.2rem;
     }
-    .navMenu a {
+    .header__navMenu a {
         font-size: 1.6rem;
     }
-    .navMenu a:hover {
+    .header__navMenu a:hover {
          font-size: 1.8rem;
     }
     .presentacion__showroom h2 {
@@ -73,7 +74,7 @@
 }
 
 @media screen and (max-width: 576px) {
-    .navbar {
+    .header__navBar {
         display: block;
     }
     .navbar-toggler-icon {
@@ -83,7 +84,7 @@
     .header__top {
         border-bottom: 0;
     }
-    .navMenu {
+    .header__navMenu {
         display: none;
     }
     .logotipo {

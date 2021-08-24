@@ -36,6 +36,12 @@ small {
   font-size: 1.4rem;
   color: white; }
 
+.fondosTitulos {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  height: 50px;
+  margin-bottom: 40px; }
+
 /*=========== variables ===========*/
 /*=========== mixin ===========*/
 /*=========== header compartido ===========*/
@@ -171,11 +177,6 @@ small {
 .presentacion__showroom--transform:hover {
   transform: scale(1.5); }
 
-.novedades__titulo {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  height: 50px; }
-
 .novedades h2 {
   font-size: 2.4rem;
   font-weight: bold;
@@ -244,12 +245,6 @@ footer {
   height: 56px; }
 
 /*=========== mainProductos ===========*/
-.main__productos--titulo {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  height: 50px;
-  margin-bottom: 50px; }
-
 .categorias span {
   display: inline-block;
   background-image: url("../assets/expand_more_white_24dp.svg");
@@ -459,11 +454,6 @@ footer {
   padding-bottom: 100px; }
 
 /*===========  preguntas frecuentes ===========*/
-.main__preguntas--titulo {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  height: 50px; }
-
 .main__preguntas p {
   padding: 10px 0 10px 10px;
   line-height: 2rem;
@@ -514,11 +504,6 @@ footer {
   border: 1px solid #c36a09; }
 
 /*=========== Como comprar ===========*/
-.main__comoComprar--titulo {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  height: 50px; }
-
 .main__comoComprar li {
   padding: 10px 5px;
   line-height: 2.5rem;
@@ -527,11 +512,6 @@ footer {
   color: white; }
 
 /*=========== contacto ===========*/
-.mainContacto__titulo {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 15px;
-  height: 50px; }
-
 .mainContacto__info p {
   display: inline-block;
   padding: 10px 0 10px 10px;

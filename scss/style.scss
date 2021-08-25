@@ -1,0 +1,133 @@
+@import "./globales";
+@import "./header";
+@import "./mainIndex";
+@import "./footer";
+@import "./mainProductos";
+@import "./mainPreguntas";
+@import "./mainComprar";
+@import "./mainContacto";
+
+
+
+@media screen and (max-width: 1024px) {
+    .mainProductos__items {
+        display: grid;
+        grid-template-areas: 
+        "item1 item2" 
+        "item3 item4" 
+        "item5 item6"; 
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 0.7fr 0.7fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        height: auto;
+        margin: 0px 20px 15px 20px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 1.2rem;
+    }
+    .header__navMenu a {
+        font-size: 1.6rem;
+    }
+    .header__navMenu a:hover {
+         font-size: 1.8rem;
+    }
+    .presentacion__showroom h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+    .main__comoComprar li {
+        padding: 10px 5px;
+        line-height: 2rem;
+        text-align:left;
+        font-size: 1.2rem;
+        color: $colorFuente;
+    }
+    .mainContacto__info p {
+        font-size: 1.4rem;
+    }
+    .mainProductos__items {
+        display: grid;
+        grid-template-areas: 
+        "item1 item2" 
+        "item3 item4" 
+        "item5 item6"; 
+        grid-template-rows: 300px 300px;
+        grid-template-columns: 0.5fr 0.5fr;
+        row-gap: 10px;
+        column-gap: 10px;
+        height: auto;
+        margin: 0px 20px 15px 20px; 
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header__navBar {
+        display: block;
+    }
+    .navbar-toggler-icon {
+        background-image: url("../assets/hamburger-big.svg");
+        background-size: cover;
+    }
+    .header__top {
+        border-bottom: 0;
+    }
+    .header__navMenu {
+        display: none;
+    }
+   
+    .nav-link {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: $colorFuente;
+        border-bottom: 1px solid $colorNaranja;
+    }
+    .nav-link:hover {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: $colorFuente;
+        border-bottom: 1px solid $colorNaranja;
+    }
+    .header__top span {
+        display: none;
+    }
+    .presentacion__showroom--transform:hover {
+        transform: none;
+    }
+    .mainProductos__items {
+        display: grid;
+        grid-template-areas: 
+        "item1" 
+        "item2" 
+        "item3" 
+        "item4" 
+        "item5" 
+        "item6"; 
+        grid-template-rows: repeat(6, 300px);
+        grid-template-columns: 250px;
+        row-gap: 10px;
+        column-gap: 10px;
+        height: auto;
+        margin: 0px 20px 15px 20px; 
+    }
+}
+
+
+
+

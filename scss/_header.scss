@@ -1,0 +1,92 @@
+/*=========== header compartido ===========*/
+.logotipo {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header__navBar {
+    display: none;
+}
+
+.header__top {
+    border-bottom: 1px solid $colorNaranja;
+    &--busqueda {
+        margin: 5px auto;
+        padding-left: 5px;
+        height: 35px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.05);
+        border: 1px solid $colorNaranja;
+        border-radius: 25px;
+        font-size: 1.5rem;
+        font-style: italic;
+        color: $colorFuente;
+        outline: none;
+    }
+    &--busqueda::placeholder {
+        font-size: 1.4rem;
+        font-style: italic;
+        color: $colorFuente;
+    }
+    span {
+        font-size: 1.2rem;
+        color: $colorFuente;
+        text-decoration: none;
+    }
+}
+
+.header__navMenu {
+    padding: 0;
+    display: flex;
+    justify-content:space-evenly;
+    list-style-type: none;
+    width: 100vw;
+    a {
+        display: block; 
+        padding: 5px 0;
+        text-decoration: none;
+        font-size: 1.8rem;
+        color: $colorFuente;
+        transition: font-size 0.3s;
+     }
+    a:hover {
+        text-shadow: black 2px 1px;
+        font-size: 2rem;
+        color: rgb(214, 161, 96);
+    }
+}
+
+.header__banner {
+    margin: 5px 0 5px 0;
+    padding-left: 0;
+    width: 100vw;
+    height: 200px;
+    background-image: url('../assets/slide.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-style: double ;
+    border-color: $colorNaranja;
+    animation: header__banner 9s infinite linear;
+}
+@keyframes header__banner {
+    0% {
+         background-image: url("../assets/slide.jpg");
+    }
+    33% {
+         background-image: url("../assets/slide.jpg");
+    }
+    34% {
+         background-image: url("../assets/slide1.jpg");
+    }
+    66% {
+         background-image: url("../assets/slide1.jpg");
+    }
+   67% {
+         background-image: url("../assets/slide2.jpg");
+    }
+   100% {
+         background-image: url("../assets/slide2.jpg");
+    }
+}
+

@@ -1,0 +1,36 @@
+/*=========== contacto ===========*/
+
+.mainContacto__info p {
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    text-align:left;
+}
+
+.form__datos {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+    color: $colorFuente;
+}
+.btn {
+    font-family: 'DM Sans';
+    font-size: 1.6rem;
+}
+.btn-primary {
+    display: block;
+    background-color: #614728;
+    border-radius: 10px;
+    border: 1px solid $colorFuente;
+}
+.btn-primary:hover {
+    background-color: #614728;
+    border-color: #965d17;
+    color: #965d17;
+}
+.mainContacto__mapa {
+    width: 100%;
+    height: 65%;
+}

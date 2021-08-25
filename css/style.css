@@ -543,9 +543,6 @@ footer {
     border-bottom: 0; }
   .header__navMenu {
     display: none; }
-  .logotipo {
-    width: 100;
-    object-fit: cover; }
   .nav-link {
     display: block;
     text-align: center;

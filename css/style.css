@@ -13,7 +13,7 @@ h1 {
   color: white; }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: bold;
   color: white; }
 
@@ -22,7 +22,7 @@ h3 {
   font-weight: bold;
   color: white; }
 
-p {
+p, small {
   font-size: 1.4rem;
   color: white; }
 
@@ -32,18 +32,12 @@ body {
 a {
   text-decoration: none; }
 
-small {
-  font-size: 1.4rem;
-  color: white; }
-
 .fondosTitulos {
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   height: 50px;
   margin-bottom: 40px; }
 
-/*=========== variables ===========*/
-/*=========== mixin ===========*/
 /*=========== header compartido ===========*/
 .logotipo {
   width: 100%;
@@ -127,55 +121,41 @@ small {
   margin: 10px auto;
   width: 100%;
   height: auto; }
-
-.presentacion__text p {
-  padding: 10px 0 10px 10px;
-  line-height: 2rem;
-  text-align: left; }
-
-.presentacion__showroom {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-
-.presentacion__showroom h2 {
-  display: block;
-  width: 100%;
-  text-align: center;
-  font-size: 2.4rem;
-  font-weight: bold;
-  color: white; }
-
-.presentacion__showroom--titulo {
-  width: 100%;
-  text-align: center; }
-
-.presentacion__showroom--images, .presentacion__showroom--img1, .presentacion__showroom--img2, .presentacion__showroom--img3, .presentacion__showroom--img4 {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 10px;
-  width: 150px;
-  height: 150px;
-  border: 1px solid #c36a09;
-  border-radius: 10px;
-  transform: scale(1);
-  transition: all 0.4s ease-in-out; }
-
-.presentacion__showroom--img1 {
-  background-image: url("../assets/showroom01.jpg"); }
-
-.presentacion__showroom--img2 {
-  background-image: url("../assets/showroom02.jpg"); }
-
-.presentacion__showroom--img3 {
-  background-image: url("../assets/showroom03.jpeg"); }
-
-.presentacion__showroom--img4 {
-  background-image: url("../assets/showroom04.jpeg"); }
-
-.presentacion__showroom--transform:hover {
-  transform: scale(1.5); }
+  .presentacion__showroom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .presentacion__showroom h2 {
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-size: 2.4rem;
+      font-weight: bold;
+      color: white; }
+    .presentacion__showroom--titulo {
+      width: 100%;
+      text-align: center; }
+    .presentacion__showroom--images, .presentacion__showroom--img1, .presentacion__showroom--img2, .presentacion__showroom--img3, .presentacion__showroom--img4 {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 10px;
+      width: 150px;
+      height: 150px;
+      border: 1px solid #c36a09;
+      border-radius: 10px;
+      transform: scale(1);
+      transition: all 0.4s ease-in-out; }
+    .presentacion__showroom--img1 {
+      background-image: url("../assets/showroom01.jpg"); }
+    .presentacion__showroom--img2 {
+      background-image: url("../assets/showroom02.jpg"); }
+    .presentacion__showroom--img3 {
+      background-image: url("../assets/showroom03.jpeg"); }
+    .presentacion__showroom--img4 {
+      background-image: url("../assets/showroom04.jpeg"); }
+    .presentacion__showroom--transform:hover {
+      transform: scale(1.5); }
 
 .novedades h2 {
   font-size: 2.4rem;
@@ -202,35 +182,29 @@ footer {
   margin: 0 auto;
   width: 100vw;
   border-top: 1px solid #c36a09; }
-
-.footer__contactanos {
-  padding-top: 10px;
-  text-align: center;
-  border-bottom: 1px solid #c36a09; }
-
-.footer__contactanos p {
-  display: inline-block;
-  line-height: 20px; }
-
-.footer__contactanos img {
-  display: inline-block;
-  margin: 4px 2px 0 0;
-  width: 15px;
-  height: 15px; }
-
-.footer__seguinos {
-  padding-top: 10px;
-  text-align: center;
-  border-bottom: 1px solid #c36a09; }
-
-.footer__seguinos img {
-  margin: 10px;
-  width: 30px;
-  height: 30px; }
-
-.footer__copyright {
-  padding-top: 10px;
-  text-align: center; }
+  footer .footer__contactanos {
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #c36a09; }
+    footer .footer__contactanos p {
+      display: inline-block;
+      line-height: 20px; }
+    footer .footer__contactanos img {
+      display: inline-block;
+      margin: 4px 2px 0 0;
+      width: 15px;
+      height: 15px; }
+  footer .footer__seguinos {
+    padding-top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #c36a09; }
+    footer .footer__seguinos img {
+      margin: 10px;
+      width: 30px;
+      height: 30px; }
+  footer .footer__copyright {
+    padding-top: 10px;
+    text-align: center; }
 
 .whatsappFlotante {
   position: fixed;
@@ -245,20 +219,6 @@ footer {
   height: 56px; }
 
 /*=========== mainProductos ===========*/
-.categorias span {
-  display: inline-block;
-  background-image: url("../assets/expand_more_white_24dp.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  top: 7px;
-  width: 23px;
-  height: 23px; }
-
-.mainProductos__menu li {
-  list-style-type: none; }
-
 .mainProductos__menu a {
   text-decoration: none;
   font-size: 1.6rem;
@@ -266,33 +226,16 @@ footer {
   border-bottom: 1px solid white;
   color: white; }
 
-.categorias__submenu {
-  display: none;
-  position: absolute;
-  padding-top: 10px; }
-
-.categorias__submenu a:hover {
-  font-weight: bold;
-  color: #d6a160; }
-
-.categorias li:hover .categorias__submenu {
-  display: block; }
+.mainProductos__menu ul {
+  background-color: #614728;
+  width: 100%; }
 
 .mainProductos__menu--boton {
   background-color: #614728;
   border-color: white; }
-
-.mainProductos__menu--boton:hover {
-  background-color: #524230;
-  border-color: white; }
-
-.mainProductos__menu--boton:focus {
-  background-color: #614728;
-  border-color: white; }
-
-.mainProductos__menu ul {
-  background-color: #614728;
-  width: 100%; }
+  .mainProductos__menu--boton:hover, .mainProductos__menu--boton :focus {
+    background-color: #524230;
+    border-color: white; }
 
 .mainProductos__items {
   display: grid;

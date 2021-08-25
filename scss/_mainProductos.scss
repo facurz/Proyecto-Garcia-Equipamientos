@@ -1,55 +1,25 @@
 /*=========== mainProductos ===========*/
 
-.categorias span {
-    display: inline-block;
-    background-image: url("../assets/expand_more_white_24dp.svg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    top: 7px;
-    width: 23px;
-    height: 23px;
-}
-.mainProductos__menu li {
-    list-style-type: none;
-    
-}
-.mainProductos__menu a {
+.mainProductos__menu {
+    a {
     text-decoration: none;
     font-size: 1.6rem;
     line-height: 30px;
-    border-bottom: 1px solid white;
-    color: white;
-}
-.categorias__submenu {
-    display: none;
-    position: absolute;
-    padding-top: 10px;
-}
-.categorias__submenu a:hover {
-    font-weight: bold;
-    color: rgb(214, 161, 96);
-}
-.categorias li:hover .categorias__submenu {
-    display: block;
-}
-
-.mainProductos__menu--boton {
-    background-color: #614728;
-    border-color: white;
-}
-.mainProductos__menu--boton:hover {
-    background-color: #524230;
-    border-color: white;
-}
-.mainProductos__menu--boton:focus {
-    background-color: #614728;
-    border-color: white;
-}
-.mainProductos__menu ul {
-    background-color: #614728;
-    width: 100%;
+    border-bottom: 1px solid $colorFuente;
+    color: $colorFuente;
+    }
+    ul {
+        background-color: #614728;
+        width: 100%;
+    }
+    &--boton {
+        background-color: #614728;
+        border-color: $colorFuente;
+        &:hover, :focus {
+            background-color: #524230;
+            border-color: $colorFuente;
+        }
+    }
 }
 
 .mainProductos__items {
@@ -76,7 +46,7 @@
 }
 
 .box {
- background-color: white;
+ background-color: $colorFuente;
  border: 5px ridge $colorNaranja;
  border-radius: 25px;
  overflow: auto;

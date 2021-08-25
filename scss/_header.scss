@@ -20,17 +20,17 @@
         border-radius: 25px;
         font-size: 1.5rem;
         font-style: italic;
-        color: white;
+        color: $colorFuente;
         outline: none;
     }
     &--busqueda::placeholder {
         font-size: 1.4rem;
         font-style: italic;
-        color: white;
+        color: $colorFuente;
     }
     span {
         font-size: 1.2rem;
-        color: white;
+        color: $colorFuente;
         text-decoration: none;
     }
 }
@@ -46,7 +46,7 @@
         padding: 5px 0;
         text-decoration: none;
         font-size: 1.8rem;
-        color: white;
+        color: $colorFuente;
         transition: font-size 0.3s;
      }
     a:hover {

@@ -13,7 +13,7 @@
     text-align: left;
     font-family: 'DM Sans';
     font-size: 1.6rem;
-    color: white;
+    color: $colorFuente;
 }
 .btn {
     font-family: 'DM Sans';
@@ -23,7 +23,7 @@
     display: block;
     background-color: #614728;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid $colorFuente;
 }
 .btn-primary:hover {
     background-color: #614728;

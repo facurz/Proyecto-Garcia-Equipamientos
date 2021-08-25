@@ -4,35 +4,35 @@ footer {
     margin: 0 auto;
     width: 100vw;
     border-top: 1px solid $colorNaranja; 
-}
-.footer__contactanos {
-    padding-top: 10px;
-    text-align: center;
-    border-bottom: 1px solid $colorNaranja;
-}
-.footer__contactanos p {
-    display: inline-block;
-    line-height: 20px;
-}
-.footer__contactanos img{
-    display: inline-block;
-    margin: 4px 2px 0 0;
-    width: 15px;
-    height: 15px;
-}
-.footer__seguinos {
-    padding-top: 10px;
-    text-align: center;
-    border-bottom: 1px solid $colorNaranja;
-}
-.footer__seguinos img {
-    margin: 10px;
-    width: 30px;
-    height: 30px;
-}
-.footer__copyright {
-    padding-top: 10px;
-    text-align: center;
+    .footer__contactanos {
+        padding-top: 10px;
+        text-align: center;
+        border-bottom: 1px solid $colorNaranja;
+        p {
+            display: inline-block;
+            line-height: 20px;
+        }
+        img{
+            display: inline-block;
+            margin: 4px 2px 0 0;
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .footer__seguinos {
+        padding-top: 10px;
+        text-align: center;
+        border-bottom: 1px solid $colorNaranja;
+        img {
+            margin: 10px;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .footer__copyright {
+        padding-top: 10px;
+        text-align: center;
+    }
 }
 .whatsappFlotante {
     position:fixed;

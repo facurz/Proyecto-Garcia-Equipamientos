@@ -8,51 +8,11 @@ html {
     font-family: "DM Sans", sans-serif;
 }
 
-
-h1 {
-    font-size: 2.4rem;
-    font-weight: bold;
-    color: white;
-}
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
-    color: white;
-}
-h3 {
-    font-size: 1.6rem;
-    font-weight: bold;
-    color: white;
-}
-p {
-    font-size: 1.4rem;
-    color: white;
-}
-body {
-    background-color: #583d1c;
-    }
-a {
-    text-decoration: none;
-}
-small {
-    font-size: 1.4rem;
-    color: white;
-}
-.fondosTitulos {
-    background-color: rgba(255, 255, 255, 0.05);
-    border-radius: 15px;
-    height: 50px;
-    margin-bottom: 40px;
-}
-
-/*=========== variables ===========*/
-
+$h1: 2.4rem;
+$colorFuente: white;
 $colorNaranja: rgb(195, 106, 9); 
 
 $grid-items: ("1": "item1", "2": "item2", "3": "item3", "4": "item4", "5": "item5", "6": "item6"); 
-
-
-/*=========== mixin ===========*/
 
 @mixin imagesStyles ($imagen, $tamaño) {
     background-image: $imagen;
@@ -66,3 +26,39 @@ $grid-items: ("1": "item1", "2": "item2", "3": "item3", "4": "item4", "5": "item
     height: 150px;
     padding-bottom: 100px;
 }
+
+
+
+h1 {
+    font-size: $h1;
+    font-weight: bold;
+    color: $colorFuente;
+}
+h2 {
+    font-size: $h1 - 0.4rem;
+    font-weight: bold;
+    color: $colorFuente;
+}
+h3 {
+    font-size: $h1 - 0.8rem;
+    font-weight: bold;
+    color: $colorFuente;
+}
+p, small {
+    font-size: $h1 - 1rem;
+    color: $colorFuente;
+}
+body {
+    background-color: #583d1c;
+    }
+a {
+    text-decoration: none;
+}
+
+.fondosTitulos {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: 40px;
+}
+

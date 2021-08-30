@@ -324,7 +324,7 @@ footer {
   border: 2px outset #c36a09;
   box-shadow: 1px 1px #b1abab; }
 
-.item1__img {
+.item1__cocinas {
   background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg");
   background-size: 80%;
   position: relative;
@@ -336,7 +336,7 @@ footer {
   height: 150px;
   padding-bottom: 100px; }
 
-.item2__img {
+.item2__cocinas {
   background-image: url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg");
   background-size: 80%;
   position: relative;
@@ -348,7 +348,7 @@ footer {
   height: 150px;
   padding-bottom: 100px; }
 
-.item3__img {
+.item3__cocinas {
   background-image: url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg");
   background-size: 80%;
   position: relative;
@@ -360,7 +360,7 @@ footer {
   height: 150px;
   padding-bottom: 100px; }
 
-.item4__img {
+.item4__cocinas {
   background-image: url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png");
   background-size: contain;
   position: relative;
@@ -372,7 +372,7 @@ footer {
   height: 150px;
   padding-bottom: 100px; }
 
-.item5__img {
+.item5__cocinas {
   background-image: url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg");
   background-size: 80%;
   position: relative;
@@ -384,9 +384,153 @@ footer {
   height: 150px;
   padding-bottom: 100px; }
 
-.item6__img {
+.item6__cocinas {
   background-image: url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg");
   background-size: 80%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__anafes {
+  background-image: url("../assets/Anafes/Anafe_Morelli_Prego.png");
+  background-size: 70%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__anafes {
+  background-image: url("../assets/Anafes/Anafe_TST_Sulata_4hornallas.jpg");
+  background-size: 80%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__anafes {
+  background-image: url("../assets/Anafes/Anafe_TST_Sulata_2hornallas.jpg");
+  background-size: 80%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__anafes {
+  background-image: url("../assets/Anafes/Anafe_Vitroceramico_TST_4H.jpeg");
+  background-size: 60%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__anafes {
+  background-image: url("../assets/Anafes/Anafe_Vitroceramico_TST_2H.jpeg");
+  background-size: 60%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__anafes {
+  background-image: url("../assets//Anafes/Anafe_CookandFood_cf35.jpg");
+  background-size: 60%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__campanas {
+  background-image: url("../assets/categ_campanasPared/Campana_TST_Atuel_60m.jpg");
+  background-size: 70%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__campanas {
+  background-image: url("../assets/categ_campanasPared/Campana_TST_Traful_60m.jpg");
+  background-size: 80%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__campanas {
+  background-image: url("../assets/categ_campanasPared/Campana_TST_Colhue_60cm.jpg");
+  background-size: 80%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__campanas {
+  background-image: url("../assets/categ_campanasPared/Campana_TST_Lacar_60cm.jpg");
+  background-size: 60%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__campanas {
+  background-image: url("../assets/categ_campanasPared/Campana_TST_Tamel_60m.jpg");
+  background-size: 60%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__campanas {
+  background-image: url("../assets/categ_campanasPared/Campana_Luxorgas_Retro__900.jpg");
+  background-size: 60%;
   position: relative;
   top: 8px;
   background-position: center;

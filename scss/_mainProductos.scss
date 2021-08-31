@@ -80,22 +80,89 @@
     border: 2px outset $colorNaranja;
     box-shadow: 1px 1px rgb(177, 171, 171);
 }
-.item1__img {
+
+// cocinas***************************************************************************
+
+.item1__cocinas {
     @include imagesStyles(url("../assets/categ_cocinas/Cocina_Tecnocalor_58cm_fundiciondehierrro.jpg"), 80%);
 }
-.item2__img {
+.item2__cocinas {
     @include imagesStyles(url("../assets/categ_cocinas/Cocina4Hornallas_58cm.jpeg"), 80%);
 }
-.item3__img {
+.item3__cocinas {
     @include imagesStyles(url("../assets/categ_cocinas/Cocina_Depaolo_4hornallasyPlanchaConCarlitero.jpeg"), 80%);
 }
-.item4__img {
+.item4__cocinas {
     @include imagesStyles(url("../assets/categ_cocinas/Cocina_Sol_Real_conparrilla_6hornallas.png"), contain);
 }
-.item5__img {
+.item5__cocinas {
     @include imagesStyles(url("../assets/categ_cocinas/Cocina_Tecnocalor4_plancha_con_Carlitera.jpg"), 80%);
 }
-.item6__img {
+.item6__cocinas {
     @include imagesStyles(url("../assets/categ_cocinas/Multicocina_Tecnocaor_4H+planchayfreidora.jpg"), 80%);
 }
+
+// anafes******************************************************************************
+
+.item1__anafes {
+    @include imagesStyles(url("../assets/Anafes/Anafe_Morelli_Prego.png"), 70%);
+}
+.item2__anafes {
+    @include imagesStyles(url("../assets/Anafes/Anafe_TST_Sulata_4hornallas.jpg"), 80%);
+}
+.item3__anafes {
+    @include imagesStyles(url("../assets/Anafes/Anafe_TST_Sulata_2hornallas.jpg"), 80%);
+}
+.item4__anafes {
+    @include imagesStyles(url("../assets/Anafes/Anafe_Vitroceramico_TST_4H.jpeg"), 60%);
+}
+.item5__anafes {
+    @include imagesStyles(url("../assets/Anafes/Anafe_Vitroceramico_TST_2H.jpeg"), 60%);
+}
+.item6__anafes {
+    @include imagesStyles(url("../assets//Anafes/Anafe_CookandFood_cf35.jpg"), 60%);
+}
+
+//campanas******************************************************************
+
+.item1__campanas {
+    @include imagesStyles(url("../assets/categ_campanasPared/Campana_TST_Atuel_60m.jpg"), 70%);
+}
+.item2__campanas {
+    @include imagesStyles(url("../assets/categ_campanasPared/Campana_TST_Traful_60m.jpg"), 80%);
+}
+.item3__campanas {
+    @include imagesStyles(url("../assets/categ_campanasPared/Campana_TST_Colhue_60cm.jpg"), 80%);
+}
+.item4__campanas {
+    @include imagesStyles(url("../assets/categ_campanasPared/Campana_TST_Lacar_60cm.jpg"), 60%);
+}
+.item5__campanas {
+    @include imagesStyles(url("../assets/categ_campanasPared/Campana_TST_Tamel_60m.jpg"), 60%);
+}
+.item6__campanas {
+    @include imagesStyles(url("../assets/categ_campanasPared/Campana_Luxorgas_Retro__900.jpg"), 60%);
+}
+
+//hornos******************************************************************
+
+.item1__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_electrico_TST_Donna.jpg"), 70%);
+}
+.item2__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Patelero_Depaolo.jpg"), 80%);
+}
+.item3__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Convector_electricoz10.jpeg"), 75%);
+}
+.item4__hornos {
+    @include imagesStyles(url("../assets//categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg"), 60%);
+}
+.item5__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Luxor_Gas_Garden550.jpg"), 60%);
+}
+.item6__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Luxor_country.jpg"), 60%);
+}
+
 

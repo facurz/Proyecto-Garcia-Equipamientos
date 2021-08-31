@@ -144,3 +144,25 @@
     @include imagesStyles(url("../assets/categ_campanasPared/Campana_Luxorgas_Retro__900.jpg"), 60%);
 }
 
+//hornos******************************************************************
+
+.item1__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_electrico_TST_Donna.jpg"), 70%);
+}
+.item2__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Patelero_Depaolo.jpg"), 80%);
+}
+.item3__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Convector_electricoz10.jpeg"), 75%);
+}
+.item4__hornos {
+    @include imagesStyles(url("../assets//categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg"), 60%);
+}
+.item5__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Luxor_Gas_Garden550.jpg"), 60%);
+}
+.item6__hornos {
+    @include imagesStyles(url("../assets/categ_hornos/Horno_Luxor_country.jpg"), 60%);
+}
+
+

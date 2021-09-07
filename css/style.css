@@ -40,6 +40,9 @@ a {
   border: 1px solid white; }
 
 /*=========== header compartido ===========*/
+header {
+  background-color: #5a370c; }
+
 .logotipo {
   width: 100%;
   object-fit: cover; }
@@ -167,7 +170,8 @@ a {
   background-color: white;
   border: 5px ridge #c36a09;
   border-radius: 25px;
-  overflow: auto; }
+  overflow: auto;
+  height: 100%; }
 
 .novedades .card-body {
   background-color: #ebe4e4; }
@@ -182,6 +186,7 @@ a {
 footer {
   margin: 0 auto;
   width: 100vw;
+  background-color: #5a370c;
   border-top: 1px solid #c36a09; }
   footer .footer__contactanos {
     padding-top: 10px;

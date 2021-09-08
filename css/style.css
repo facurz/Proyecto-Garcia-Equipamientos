@@ -40,9 +40,6 @@ a {
   border: 1px solid white; }
 
 /*=========== header compartido ===========*/
-header {
-  background-color: #5a370c; }
-
 .logotipo {
   width: 100%;
   object-fit: cover; }

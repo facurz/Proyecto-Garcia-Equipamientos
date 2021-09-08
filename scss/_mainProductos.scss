@@ -147,7 +147,7 @@
 //hornos******************************************************************
 
 .item1__hornos {
-    @include imagesStyles(url("../assets/categ_hornos/Horno_electrico_TST_Donna.jpg"), 70%);
+    @include imagesStyles(url("../assets/categ_hornos/Horno_electrico_TST_Donna.jpg"), 80%);
 }
 .item2__hornos {
     @include imagesStyles(url("../assets/categ_hornos/Horno_Patelero_Depaolo.jpg"), 80%);
@@ -156,13 +156,119 @@
     @include imagesStyles(url("../assets/categ_hornos/Horno_Convector_electricoz10.jpeg"), 75%);
 }
 .item4__hornos {
-    @include imagesStyles(url("../assets//categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg"), 60%);
+    @include imagesStyles(url("../assets/categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg"), 60%);
 }
 .item5__hornos {
     @include imagesStyles(url("../assets/categ_hornos/Horno_Luxor_Gas_Garden550.jpg"), 60%);
 }
 .item6__hornos {
     @include imagesStyles(url("../assets/categ_hornos/Horno_Luxor_country.jpg"), 60%);
+}
+
+//parrillas******************************************************************
+
+.item1__parrillas {
+    @include imagesStyles(url("../assets/categ_parrillas/parrilla_sauce_60.jpg"), contain);
+}
+.item2__parrillas {
+    @include imagesStyles(url("../assets/categ_parrillas/parrillas_cf35.jpg"), contain);
+}
+.item3__parrillas {
+    @include imagesStyles(url("../assets/categ_parrillas/parrilla-a-gas-cf90.jpg"), contain);
+}
+.item4__parrillas {
+    @include imagesStyles(url("../assets/categ_parrillas/parrillas_carbon_cipres.jpg"), contain);
+}
+.item5__parrillas {
+    @include imagesStyles(url("../assets/categ_parrillas/parrilla_carbon_90cm.jpg"), contain);
+}
+.item6__parrillas {
+    @include imagesStyles(url("../assets/categ_parrillas/parrilla_gas_cf120.jpg"), contain);
+}
+
+//maquinas de pastas******************************************************************
+
+.item1__pastas {
+    @include imagesStyles(url("../assets/categ_pastas/pastalinda_roja.jpg"), contain);
+}
+.item2__pastas {
+    @include imagesStyles(url("../assets/categ_pastas/pastalinda_blanca.png"), contain);
+}
+.item3__pastas {
+    @include imagesStyles(url("../assets/categ_pastas/raviolero.jpg"), contain);
+}
+.item4__pastas {
+    @include imagesStyles(url("../assets/categ_pastas/sobadora_RD_fideero.png"), contain);
+}
+.item5__pastas {
+    @include imagesStyles(url("../assets/categ_pastas/sobadora_RD_300mm.png"), contain);
+}
+.item6__pastas {
+    @include imagesStyles(url("../assets/categ_pastas/secapasta.jpg"), 70%);
+}
+
+//balanzas******************************************************************
+
+.item1__balanzas {
+    @include imagesStyles(url("../assets/categ_balanzas/balanza_systel_croma.jpg"), contain);
+}
+.item2__balanzas {
+    @include imagesStyles(url("../assets/categ_balanzas/cortadora_fiambre_moretti.jpg"), 75%);
+}
+.item3__balanzas {
+    @include imagesStyles(url("../assets/categ_balanzas/balanza_quora.jpg"), contain);
+}
+.item4__balanzas {
+    @include imagesStyles(url("../assets/categ_balanzas/balanza_systel_clipse.png"), contain);
+}
+.item5__balanzas {
+    @include imagesStyles(url("../assets/categ_balanzas/impresor_Eco.jpg"), contain);
+}
+.item6__balanzas {
+    @include imagesStyles(url("../assets/categ_balanzas/combo_balanza_cortadora.jpeg"), 65%);
+}
+
+
+//kamados******************************************************************
+
+.item1__kamados {
+    @include imagesStyles(url("../assets/categ_kamados/kamado_pampero.jpg"), contain);
+}
+.item2__kamados {
+    @include imagesStyles(url("../assets/categ_kamados/kamado_portenio.jpg"), contain);
+}
+.item3__kamados {
+    @include imagesStyles(url("../assets/categ_kamados/kamado_criollo.jpg"), contain);
+}
+.item4__kamados {
+    @include imagesStyles(url("../assets/categ_kamados/kamado_gran_criollo.jpg"), contain);
+}
+.item5__kamados {
+    @include imagesStyles(url("../assets/categ_kamados/mini_kamado_blanco.jpg"), contain);
+}
+.item6__kamados {
+    @include imagesStyles(url("../assets/categ_kamados/mini_kamado_pampero.png"), contain);
+}
+
+//otros******************************************************************
+
+.item1__otros {
+    @include imagesStyles(url("../assets/categ_otros/cacerola_fundicion.jpg"), contain);
+}
+.item2__otros {
+    @include imagesStyles(url("../assets/categ_otros/wok_fundicion.jpeg"), 75%);
+}
+.item3__otros {
+    @include imagesStyles(url("../assets/categ_otros/mezcladora_decarne.png"), contain);
+}
+.item4__otros {
+    @include imagesStyles(url("../assets/categ_otros/batidora.jpg"), contain);
+}
+.item5__otros {
+    @include imagesStyles(url("../assets/categ_balanzas/impresor_Eco.jpg"), contain);
+}
+.item6__otros {
+    @include imagesStyles(url("../assets/categ_balanzas/combo_balanza_cortadora.jpeg"), 65%);
 }
 
 

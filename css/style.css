@@ -548,7 +548,7 @@ footer {
 
 .item1__hornos {
   background-image: url("../assets/categ_hornos/Horno_electrico_TST_Donna.jpg");
-  background-size: 70%;
+  background-size: 80%;
   position: relative;
   top: 8px;
   background-position: center;
@@ -583,7 +583,7 @@ footer {
   padding-bottom: 100px; }
 
 .item4__hornos {
-  background-image: url("../assets//categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg");
+  background-image: url("../assets/categ_hornos/Horno_electrico_empotrar_TST_Fornello.jpg");
   background-size: 60%;
   position: relative;
   top: 8px;
@@ -609,6 +609,366 @@ footer {
 .item6__hornos {
   background-image: url("../assets/categ_hornos/Horno_Luxor_country.jpg");
   background-size: 60%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__parrillas {
+  background-image: url("../assets/categ_parrillas/parrilla_sauce_60.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__parrillas {
+  background-image: url("../assets/categ_parrillas/parrillas_cf35.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__parrillas {
+  background-image: url("../assets/categ_parrillas/parrilla-a-gas-cf90.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__parrillas {
+  background-image: url("../assets/categ_parrillas/parrillas_carbon_cipres.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__parrillas {
+  background-image: url("../assets/categ_parrillas/parrilla_carbon_90cm.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__parrillas {
+  background-image: url("../assets/categ_parrillas/parrilla_gas_cf120.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__pastas {
+  background-image: url("../assets/categ_pastas/pastalinda_roja.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__pastas {
+  background-image: url("../assets/categ_pastas/pastalinda_blanca.png");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__pastas {
+  background-image: url("../assets/categ_pastas/raviolero.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__pastas {
+  background-image: url("../assets/categ_pastas/sobadora_RD_fideero.png");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__pastas {
+  background-image: url("../assets/categ_pastas/sobadora_RD_300mm.png");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__pastas {
+  background-image: url("../assets/categ_pastas/secapasta.jpg");
+  background-size: 70%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__balanzas {
+  background-image: url("../assets/categ_balanzas/balanza_systel_croma.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__balanzas {
+  background-image: url("../assets/categ_balanzas/cortadora_fiambre_moretti.jpg");
+  background-size: 75%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__balanzas {
+  background-image: url("../assets/categ_balanzas/balanza_quora.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__balanzas {
+  background-image: url("../assets/categ_balanzas/balanza_systel_clipse.png");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__balanzas {
+  background-image: url("../assets/categ_balanzas/impresor_Eco.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__balanzas {
+  background-image: url("../assets/categ_balanzas/combo_balanza_cortadora.jpeg");
+  background-size: 65%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__kamados {
+  background-image: url("../assets/categ_kamados/kamado_pampero.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__kamados {
+  background-image: url("../assets/categ_kamados/kamado_portenio.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__kamados {
+  background-image: url("../assets/categ_kamados/kamado_criollo.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__kamados {
+  background-image: url("../assets/categ_kamados/kamado_gran_criollo.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__kamados {
+  background-image: url("../assets/categ_kamados/mini_kamado_blanco.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__kamados {
+  background-image: url("../assets/categ_kamados/mini_kamado_pampero.png");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item1__otros {
+  background-image: url("../assets/categ_otros/cacerola_fundicion.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item2__otros {
+  background-image: url("../assets/categ_otros/wok_fundicion.jpeg");
+  background-size: 75%;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item3__otros {
+  background-image: url("../assets/categ_otros/mezcladora_decarne.png");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item4__otros {
+  background-image: url("../assets/categ_otros/batidora.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item5__otros {
+  background-image: url("../assets/categ_balanzas/impresor_Eco.jpg");
+  background-size: contain;
+  position: relative;
+  top: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 25px 25px 0 0;
+  width: 100%;
+  height: 150px;
+  padding-bottom: 100px; }
+
+.item6__otros {
+  background-image: url("../assets/categ_balanzas/combo_balanza_cortadora.jpeg");
+  background-size: 65%;
   position: relative;
   top: 8px;
   background-position: center;

@@ -13,7 +13,7 @@ El objetivo del desarrollo fue incorporar todas la herramientas vistas en el cur
 * Bootstrap 
 *  Flujo de trabajo con Git y Github.
 
-https://facurz.github.io/Proyecto-CoderHouse/
+[Ver Sitio](https://facurz.github.io/Proyecto-CoderHouse/)
 
 
 

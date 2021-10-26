@@ -1,6 +1,6 @@
-PROYECTO PERSONAL DEL CURSO DE DESARROLLO WEB
+## PROYECTO DEL CURSO DE DESARROLLO WEB
 
-El proyecto es 100% original utilizando HTML5 y CSS. El sitio no tiene funcionalidad ya que no tiene Javascript.
+El proyecto es 100% original y personal utilizando **HTML5 y CSS**. El sitio no tiene funcionalidad ya que no tiene Javascript.
 
 El objetivo del desarrollo fue incorporar todas la herramientas vistas en el curso:
 

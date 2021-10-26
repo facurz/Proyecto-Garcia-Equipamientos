@@ -4,7 +4,14 @@ El proyecto es 100% original y personal utilizando **HTML5 y CSS**. El sitio no 
 
 El objetivo del desarrollo fue incorporar todas la herramientas vistas en el curso:
 
-HTML Semántico | Diseño responsive | Flexbox & Grids | Metodología BEM | Preprocesador Sass | Bootstrap | Flujo de trabajo con Git y Github.
+* HTML Semántico 
+* CSS
+  *  Diseño responsive 
+  *  Flexbox & Grids 
+  *   Metodología BEM 
+  *   Preprocesador Sass 
+* Bootstrap 
+*  Flujo de trabajo con Git y Github.
 
 
 
